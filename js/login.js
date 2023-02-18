@@ -11,7 +11,9 @@ const validateIput = ({ target }) =>{
 }
 const  handlesubmit = (event) => {
     event.preventDefault();
-    console.log('oi');
+
+    localStorage.setItem('player', input.value);
+    window.location = 'pages/games.html';
 }
 input.addEventListener('input', validateIput);
 form.addEventListener('submit', handlesubmit);
