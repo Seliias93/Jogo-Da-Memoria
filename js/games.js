@@ -1,6 +1,6 @@
 const grid = document.querySelector('.grid');
 
-const pesona =[
+const pesona =  [
   'Ajudante_de_papainoel1',
   'bart',
   'card01',
@@ -24,7 +24,7 @@ const createCard = (pesona) => {
   const front = createElement('div', 'face front');
   const back = createElement('div', 'face back');
 
-  front.style.backgroudImage = `url('../imagens/${pesona}.png')`;
+  front.style.backgroudImage = `url('../imagens/${pesona}')`;
 
   card.appendChild(front);
   card.appendChild(back);
@@ -34,6 +34,7 @@ const createCard = (pesona) => {
 }
 
 const loadgame = () =>{
+
   pesona.forEach((pesona) => {
 
     const card = createCard(pesona);
