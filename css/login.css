@@ -1,3 +1,6 @@
+body{
+  background-image: url('../images/bg.jpg');
+}
 .login-form {
   align-items: center;
   display: flex;
