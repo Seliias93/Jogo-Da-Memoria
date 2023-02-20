@@ -3,16 +3,16 @@ const spanPlayer = document.querySelector('.player');
 const timer = document.querySelector('.timer');
 
 const characters = [
-  'beth',
-  'jerry',
-  'jessica',
-  'morty',
-  'pessoa-passaro',
-  'pickle-rick',
-  'rick',
-  'summer',
-  'meeseeks',
-  'scroopy',
+  'bart',
+  'homer',
+  'homer e flandes',
+  'lisa',
+  'maggie',
+  'marge',
+  'simpsons2',
+  'Ajudante_de_papainoel1',
+  'Ned_Flanders',
+  'simpsons-human-alien-book-512x512',
 ];
 
 const createElement = (tag, className) => {

@@ -1,5 +1,7 @@
 body{
-  background-image: url('../images/bg.jpg');
+  background-image: url('../images/Screen_Shot_2013-05-03_at_2.24.19_PM.png');
+  background-size: cover;
+  
 }
 .login-form {
   align-items: center;
@@ -24,8 +26,9 @@ body{
 
 
 .login__header h1 {
-  color: #333;
+  color: #ffe606;
   font-size: 1.5em;
+  margin-top: 20px;
 }
 
 .login__input {
@@ -41,8 +44,8 @@ body{
 }
 
 .login__button {
-  background-color: #00b5cc;
-  border: 3px solid #b2df28;
+  background-color: #beb209;
+  border: 3px solid #fffb00;
   border-radius: 8px;
   color: #fff;
   cursor: pointer;
